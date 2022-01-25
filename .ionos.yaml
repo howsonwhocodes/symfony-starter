@@ -5,6 +5,7 @@ setup:
     action: php-actions/composer@v6
     properties:
       args: --optimize-autoloader
+      php_version: '8.0.15'
   - name: Setup Node.js v14.x
     action: actions/setup-node@v1
     properties:
